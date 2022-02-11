@@ -1,13 +1,323 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.drop-down {
+  border-radius: 50px;
+  background-color: rgb(108, 114, 114);
+  margin-left: 150px;
+  padding: 20px;
+  
+}
+.search {
+  border-radius: 13px ;
+  width: 50%;
+  margin: auto;
+  background-color: rgb(215, 222, 230);
+}
+.bitcoin-container {
+  display: flex;
+  justify-content: space-between;
+}
+.bitcoin-cards {
+  padding: 15px;
+  background-color: aqua;
+  border-radius: 15px;
+}
+.sidebar-icons {
+  color: blue;
+}
+.icon-container1 {
+  display: flex;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.widen-box
+{
+  width: 250px;
+  height: 250px;
+}
+
+.left-float
+{
+  width: 300px;
+  background-color: #f7f7fa;
+}
+.right-float-div
+{
+  width: 300px;
+  background-color:  #f9f9ff;
+}
+.left-boxes-btn {
+  border-radius: 15px;
+  height: 50px;
+  width: 50px;
+  background-color: #62009f;
+}
+.card1
+{
+  background-color: #fbf1d2;
+}
+.card2
+{
+  background-color: #ffddf9;
+}
+.card3
+{
+  background-color: #b4dfea;
+}
+.middle-card
+{
+  background-color: #ffffff;
+}
+
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+}
+
+.grid-item 
+{
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+.title
+{
+  font-size: 15px;
+  font-weight: bold;
+}
+.henry
+{
+  font-size: 13px;
+  margin-top: -1000px;
+  margin-left: 15px;
+  color: gray;
+}
+
+.insure
+{
+  float: left;
+}
+.activity-list
+{
+  float: right;
+}
+.plus-btn
+{
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+}
+.last-activity-left
+{
+  float: left;
+}
+.last-activity-right
+{
+  float: right;
+}
+.plus
+{
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  background-color: #62009f;
+
+}
+.setting
+{
+  margin-right: 20px;
+}
+.edit{
+  margin-left: 100px;
+  text-decoration: underline;
+}
+.avatar
+{
+  float: right;
+}
+.person
+{
+  margin-left: 100px;
+}
+.profile-card-1
+{
+  border-radius: 15px;
+  height: 100px;
+}
+.card-card-1-left
+{
+  float: left;
+}
+.card-card-1-right
+{
+  float: right;
+}
+.card-card-2-left
+{
+  float: left;
+}
+.card-card-2-right
+{
+  float: right;
+}
+
+.small-img-left-1
+{
+  width: 98px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.small-img-left-2
+{
+  width: 98px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.small-img-right-1
+{
+  width: 98px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.small-img-right-2
+{
+  width: 50px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.small-img-table-img
+{
+  width: 40px;
+}
+
+.span-midel-label
+{
+  margin-top: -40px;
+}
+.grid-container-2 
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* background-color: #2196F3; */
+    padding: 5px;
+}
+
+.grid-items-2
+{
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+.left-class
+{
+margin-left: -20px;
+}
+
+.fa-search
+{
+  margin-left: 100px;
+}
+.card-main-container
+{
+  border: none;
+}
+.quit,
+.person
+{
+  color: grey;
+}
+.clear-btn
+{
+  border-radius: 3px solid white;
+  background-color: white;
+  border: none;
+}
+.last-activity
+{
+  font-size: 23px;
+  font-weight: bold;
+}
+.updated
+{
+  font-size: 12px;
+  color: gray;
+}
+label{
+  font-size: 15px;
+  font-weight: bold;
+  color: grey;
+}
+.span
+{
+  font-size: 10px;
+  color: grey;
+}
+.span-cent
+{
+  color: aqua;
+}
+.payment
+{
+  font-size: 27px;
+  font-weight: bold;
+}
+.img-l
+{
+  background-color: gainsboro;
+}
+.search-icone
+{
+  margin-left: 500px;;
+}
+.modal-size
+{
+ width: 23vw;
+ margin-left: 645px;
+}
+select
+{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  width: 100%;
+}
+.modal-label
+{
+  color: #8e0fdd;
+}
+.bill
+{
+  background-color: #8e0fdd;
+  background: cover;
+  color: white;
+}
+.pay-btn
+{
+  margin-left: 40px;
+  border-radius: 10px;
+  width: 100px;
+  background-color: #8e0fdd;
+  color: white;
+  border: #8e0fdd;
+}
+.pay-cancel
+{
+  margin-left: 20px;
+  border-radius: 10px;
+  width: 100px;
+  color: red;
+  border-color: red;
+}
+.plus-icon
+{
+  background-color: #8e0fdd;
 }
